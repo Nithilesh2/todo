@@ -81,11 +81,11 @@ listcontainer.addEventListener("click",(eve)=>{
 
 
 function getData(){
-    console.log(localStorage.setItem("data",listcontainer.innerHTML));
+    localStorage.setItem("data",listcontainer.innerHTML)
 }
 
 function showData(){
-    console.log(listcontainer.innerHTML = localStorage.getItem("data"));
+    listcontainer.innerHTML = localStorage.getItem("data")
 }
 
 
